@@ -1,0 +1,55 @@
+html, body {
+    margin: 0px;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-box {
+    // border: 2px solid red;
+    width: 50vw;
+    font-size: 2rem;
+    padding: 3rem;
+    border-radius: 15px;
+
+    #text {
+        text-align: center;
+        font-family: 'Inknut Antiqua', Verdana, Geneva, Tahoma, sans-serif; 
+    }
+
+    #author {
+        font-size: 1rem;
+        font-style: italic;
+        float: right;
+    }
+}
+
+#quote-box-footer {
+    display: flex;
+    align-items: center;
+    // border: 2px solid red;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.fa {
+    text-decoration: none;
+    font-size: 3rem;
+    margin-left: 2rem;;
+}
+
+.toggle-button-color {
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1200px) {
+    #text {
+        font-size: 1rem;
+    }
+}

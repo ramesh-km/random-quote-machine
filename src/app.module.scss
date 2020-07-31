@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&display=swap');
+
+.buttonOn {
+    font-weight: bold;
+    display: block;
+    margin: 1em;
+    margin-left: auto;
+    height: 40px;
+    min-width: 100px;
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+
+    &:active {
+        background-color: rgba($color: #eeeeee, $alpha: 0.7);
+        color: blue;
+    }
+}
