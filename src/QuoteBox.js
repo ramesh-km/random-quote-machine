@@ -34,7 +34,6 @@ function QuoteBox() {
     if (!window.navigator.onLine) {
         return (<div className={styles.noInternet} >
             <img src={noInternet} alt='Illustration for no internet connectivity'></img>
-            <p>No internet ?</p>
         </div>);
     }else if (isLoading) {
         return (<div className={styles.loader}>Loading...</div>)
