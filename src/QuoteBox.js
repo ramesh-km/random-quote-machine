@@ -76,7 +76,7 @@ function Quote({quote}) {
 
 async function fetchQuotes() {
     console.log('fetching quotes');
-    const response = await fetch('https://gist.githubusercontent.com/ramesh-km/8a1b3a2cce4a8eff58ed83e40c491f35/raw/8f435105e71a6fdf86e97f734145636fc4ae79cd/quotes.json');
+    const response = await fetch('https://gist.githubusercontent.com/ramesh-km/8a1b3a2cce4a8eff58ed83e40c491f35/raw/');
     if (response.ok) {
         return await response.json();
     } else {
